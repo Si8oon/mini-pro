@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>moon</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">HELLO!</div>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="navbar" id="navLinks">
+          <a href="#">Home</a>
+          <a href="#">Products</a>
+          <a href="#">Contact</a>
+          <a href="#">About</a>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="main-flex">
+          <img src="pic/simoon.jpg" alt="Simon vibe" class="main-image" />
+      
+          <div class="text-content">
+            <h1>welcome to simon world</h1>
+            <div class="content-1">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem quae libero officia ab veritatis nesciunt cumque dolores! Consequuntur dicta, deserunt sequi quae, labore veritatis ullam iure provident sapiente nemo aspernatur?
+            </div>
+            <button type="submit">Work with us</button>
+          </div>
+      </main>
+    <div class="about">
+      <div class="box0">
+        <h2>about</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quae libero officia ab veritatis nesciunt cumque dolores! Consequuntur dicta, deserunt sequi quae, labore veritatis ullam iure provident sapiente nemo aspernatur?</p>
+      </div>
+      <div class="box1">
+        <h2>about</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quae libero officia ab veritatis nesciunt cumque dolores! Consequuntur dicta, deserunt sequi quae, labore veritatis ullam iure provident sapiente nemo aspernatur?</p>
+      </div>
+      <div class="box2">
+        <h2>about</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quae libero officia ab veritatis nesciunt cumque dolores! Consequuntur dicta, deserunt sequi quae, labore veritatis ullam iure provident sapiente nemo aspernatur?</p>
+      </div>
+    </div>
+
+    
+<div class="contact-wrapper">
+  <div class="contact-icon-side">
+    <h2>Let’s Talk</h2>
+    <p>Questions? Ideas? Collab? Hit me up ✨</p>
+    <div class="icon-info">
+      <i class="fas fa-envelope"></i> abinbiresimon@gmail.com
+    </div>
+    <div class="icon-info">
+      <i class="fas fa-phone-alt"></i> +233 536440075
+    </div>
+    <div class="icon-info">
+      <i class="fas fa-location-dot"></i> Kumasi, Ghana
+    </div>
+  </div>
+
+  <div class="contact-form-side">
+    <form action="#">
+      <div class="input-icon">
+        <i class="fas fa-user"></i>
+        <input type="text" placeholder="Your Name" required />
+      </div>
+      <div class="input-icon">
+        <i class="fas fa-envelope"></i>
+        <input type="email" placeholder="Your Email" required />
+      </div>
+      <div class="input-icon">
+        <i class="fas fa-comment"></i>
+        <textarea placeholder="Your Message..." required></textarea>
+      </div>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</div>
+    </div>
+    
+    
+      <footer class="footer">footer</footer>
+    </div>
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("navLinks");
+
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active"); // animate the lines
+        navLinks.classList.toggle("show"); // show/hide the nav
+      });
+    </script>
+  </body>
+</html>
